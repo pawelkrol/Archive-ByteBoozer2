@@ -44,9 +44,10 @@ crunch_file(aSource, aTarget, startAdress, decrFlag, isRelocated)
 void
 free_file(...)
   CODE:
+    int i;
     File *aFile;
     SV *sv;
-    for (int i = 0; i < items; i++) {
+    for (i = 0; i < items; i++) {
       sv = (SV *)SvRV(ST(i));
       aFile = (File *)SvIV(sv);
       freeFile(aFile);
