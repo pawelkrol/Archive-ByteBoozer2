@@ -6,7 +6,7 @@ Archive-ByteBoozer2
 VERSION
 -------
 
-Version 0.02 (2016-03-24)
+Version 0.03 (2016-03-31)
 
 INSTALLATION
 ------------

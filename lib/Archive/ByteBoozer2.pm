@@ -56,7 +56,7 @@ $EXPORT_TAGS{all} = [ @{$EXPORT_TAGS{crunch}}, @{$EXPORT_TAGS{ecrunch}}, @{$EXPO
 our @EXPORT_OK = @{ $EXPORT_TAGS{all} };
 our @EXPORT = qw();
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 require XSLoader;
 XSLoader::load(__PACKAGE__, $VERSION);
@@ -174,7 +174,7 @@ Pawel Krol, E<lt>djgruby@gmail.comE<gt>.
 
 =head1 VERSION
 
-Version 0.02 (2016-03-24)
+Version 0.03 (2016-03-31)
 
 =head1 COPYRIGHT AND LICENSE
 
