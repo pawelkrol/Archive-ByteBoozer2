@@ -18,6 +18,10 @@ To install this module type the following:
     make test
     make install
 
+To build a distribution package type this:
+
+    make dist
+
 DOCUMENTATION
 -------------
 
