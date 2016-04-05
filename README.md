@@ -1,6 +1,8 @@
 Archive-ByteBoozer2
 ===================
 
+[![CPAN version](https://badge.fury.io/pl/Archive-ByteBoozer2.svg)](http://search.cpan.org/~pawelkrol/Archive-ByteBoozer2/lib/Archive/ByteBoozer2.pm)
+
 `Archive::ByteBoozer2` package provides a Perl interface to David Malmborg's [ByteBoozer 2.0](http://csdb.dk/release/?id=145031), a data cruncher for Commodore files written in C. The following operations are supported: crunching files, crunching files and making an executable with start address `$xxxx`, crunching files and relocating data to hex address `$xxxx`.
 
 VERSION
